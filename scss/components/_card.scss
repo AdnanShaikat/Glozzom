@@ -1,0 +1,12 @@
+.firstcard{
+    &__container{
+        height: 50vh;
+        .card{
+            width: 20rem;
+            border: none ;
+        }
+        @media (max-width:1192px) {
+            height: auto;
+        }
+    }
+}
