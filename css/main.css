@@ -7162,6 +7162,21 @@ a.text-dark:hover, a.text-dark:focus {
     top: 45%;
     transform: translateY(-50%);
     bottom: initial !important; }
+  @media (max-width: 992px) {
+    .slider h5 {
+      font-size: 2rem; } }
+  @media (max-width: 767px) {
+    .slider h5 {
+      font-size: 1rem; } }
+  @media (max-width: 992px) {
+    .slider p {
+      font-size: 0.7rem; } }
+  @media (max-width: 767px) {
+    .slider p {
+      font-size: 0.5rem; } }
+  @media (max-width: 992px) {
+    .slider .carousel-inner {
+      height: auto; } }
 
 .firstcard__container {
   height: 50vh; }
